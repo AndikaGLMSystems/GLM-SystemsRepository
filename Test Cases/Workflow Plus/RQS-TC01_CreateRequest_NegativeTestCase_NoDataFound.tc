@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RQS-TC01_CreateRequest_NegativeTestCase_NoDataFound</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>375ccc4f-e625-4332-9117-82fe839c8166</testCaseGuid>
+</TestCaseEntity>
