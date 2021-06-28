@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RQS-TC03_CreateRequest_PositiveTestCase_CreateSuccessfully</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>9781163f-d50a-47f4-a2db-e4bbb4c9f613</testCaseGuid>
+</TestCaseEntity>

@@ -23,19 +23,23 @@ WebUI.navigateToUrl('http://localhost/synergy_264/docs/Portal.aspx')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/div_Modules'))
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/div_Modules (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/a_Workflow'))
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/a_Workflow (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/span_Entry'))
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/span_Entry (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/a_Requests New'))
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/a_Requests New (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/input_Request type__ID'), 
-    '00')
+WebUI.setText(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/input_Request type__ID (1)'), 
+    '0')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/td_No data found'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/button_Create'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/input_Description_Description'), 
+    'Test1')
+
+WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/button_Create_1'))
 
 WebUI.closeBrowser()
 

@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/synergy_264/docs/Portal.aspx')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/div_Modules'))
 
 WebUI.click(findTestObject('Object Repository/Page_Exact Synergy Enterprise - Andika Saputra/a_Workflow'))
