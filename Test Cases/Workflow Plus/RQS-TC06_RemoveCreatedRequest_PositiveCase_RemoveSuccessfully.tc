@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RQS-TC06_RemoveCreatedRequest_PositiveCase_RemoveSuccessfully</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>45bcdeab-013c-4cad-8d92-cc946cd7353d</testCaseGuid>
+</TestCaseEntity>
